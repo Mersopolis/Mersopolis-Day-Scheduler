@@ -1,6 +1,40 @@
+# Mersopolis-Day-Scheduler
+TODO: Add URL
+
+## Description
+A web app to schedule events for every hour each day
+
+## Badges
+N/A
+
+## Visuals
+TODO: Add later
+
+## Installation
+N/A
+
+## Usage
+TODO: Add later
+
+## Support
+If you have any problems or questions, here is my contact info:<br/>
+Email: [mersopolis@gmail.com](mailto:mersopolis@gmail.com)<br/>
+GitHub: [Mersopolis](https://github.com/Mersopolis)
+
+## Roadmap
+TODO: Add later
+
+## Contributing
+Feel free to offer suggestions through the above Support links, make a pull request at https://github.com/Mersopolis/Mersopolis-Day-Scheduler, or clone the code and make something of your own. Just make sure to adhere to the license below.
+
+## Authors and acknowledgment
+Starter code provided by University of Utah.
+Code expanded by me: Devon Ethington.
+
+## License
 MIT License
 
-Copyright (c) 2023 Mersopolis
+Copyright (c) 2022 Mersopolis
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -19,3 +53,6 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+## Project status
+N/A
