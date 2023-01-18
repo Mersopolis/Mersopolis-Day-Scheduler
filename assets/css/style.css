@@ -1,64 +1,51 @@
 * {
-  color: white;
+  //color: white;
 }
+/* Body */
 body {
   background-color: rgb(224, 123, 86);
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
 }
-
+/* Time Block */
 .row {
   border-radius: 15px;
 }
-
-.past {
-  background-color: #d3d3d3;
-}
-
-.present {
-  background-color: #77dd77;
-}
-
-.future {
-  background-color: #7f94d6;
-}
-
+/* Hour */
 .hour {
-  background-color: #ffffff;
-  color: #000000;
-  border: 1px solid #000000;
+  background-color: white;
+  color: black;
+  border: 1px solid black;
   border-radius: 15px 0 0 15px;
 }
-
+/* Event Text Area */
 textarea {
-  background: transparent;
   border: 1px dashed black;
   resize: none;
-  color: white;
   border-left: none;
   border-right: none;
   padding: 10px;
-}
-
-.description {
   white-space: pre-wrap;
 }
-
-.past textarea{
+.past textarea {
+  background-color: #d3d3d3;
   color: rgb(132, 130, 130);
 }
-.future textarea{
-  color: white;
+.present textarea {
+  background-color: #77dd77;
+  color: black;
 }
-
+.future textarea {
+  background-color: #7f94d6;
+}
+/* Save Button */
 .saveBtn {
   border-left: 1px solid black;
   border-radius: 0 15px 15px 0;
-  border: 1px solid #000000;
+  border: 1px solid black;
   background-color: #06aed5;
   color: white;
 }
-
 .saveBtn:hover {
   font-size: 20px;
   transition: all 0.2s;

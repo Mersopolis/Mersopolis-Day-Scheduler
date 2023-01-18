@@ -20,15 +20,19 @@
     <header class="p-5 mb-4">
       <h1 class="display-3">Day Scheduler</h1>
       <p class="lead">Current Date &amp time:</p>
-      <p id="DateAndTime" class="lead"></p>
+      <p id="DateAndTime" class="lead">The Schedule is loading...</p>
     </header>
     <!-- Main Content -->
     <!-- Time Blocks -->
     <div class="container-fluid px-5">
 
+      <!-- Time Block -->
       <div id="0" class="row time-block">
+        <!-- Hour -->
         <div class="col-2 col-md-1 hour text-center py-3">12 AM</div>
+        <!-- Event Text -->
         <textarea class="col-8 col-md-10 description" rows="3"> </textarea>
+        <!-- Save Button -->
         <button class="btn saveBtn col-2 col-md-1" aria-label="save">
           <i class="fas fa-save" aria-hidden="true"></i>
         </button>
@@ -219,7 +223,11 @@
       </div>
     </div>
 
+    <!-- Scripts -->
+    <!-- JQuery -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    
+    <!-- DayJS -->
     <script src="https://cdn.jsdelivr.net/npm/dayjs@1.11.3/dayjs.min.js"
     integrity="sha256-iu/zLUB+QgISXBLCW/mcDi/rnf4m4uEDO0wauy76x7U="
     crossorigin="anonymous"></script>
