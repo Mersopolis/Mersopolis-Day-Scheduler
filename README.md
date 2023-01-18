@@ -1,5 +1,5 @@
 # Mersopolis-Day-Scheduler
-TODO: Add URL
+https://mersopolis.github.io/Mersopolis-Day-Scheduler/
 
 ## Description
 A web app to schedule events for every hour each day
@@ -8,13 +8,14 @@ A web app to schedule events for every hour each day
 N/A
 
 ## Visuals
-TODO: Add later
+The site should look like this:<br/>
+![The site at 768p](./assets/images/Day%20Scheduler%20768p.png)<br/>
 
 ## Installation
 N/A
 
 ## Usage
-TODO: Add later
+The current date and time are shown at the top. The time blocks are colored based on whether the hour is past, present, or future. Type into a field and click the corresponding save button to preserve the text, even when refreshing the page.
 
 ## Support
 If you have any problems or questions, here is my contact info:<br/>
@@ -22,7 +23,7 @@ Email: [mersopolis@gmail.com](mailto:mersopolis@gmail.com)<br/>
 GitHub: [Mersopolis](https://github.com/Mersopolis)
 
 ## Roadmap
-TODO: Add later
+Make each time block collapsible and then restorable.
 
 ## Contributing
 Feel free to offer suggestions through the above Support links, make a pull request at https://github.com/Mersopolis/Mersopolis-Day-Scheduler, or clone the code and make something of your own. Just make sure to adhere to the license below.
