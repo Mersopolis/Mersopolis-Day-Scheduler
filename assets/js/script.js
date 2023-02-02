@@ -6,8 +6,8 @@ $(function () {
 
   // Saves event text to localStorage when clicking corresponding save button
   $(".saveBtn").on("click", function() {
-    var key = JSON.stringify("eventStorage" + $(this).parent().attr("id"))
-    var value = JSON.stringify($(this).siblings("textarea").val())
+    var key = "eventStorage" + $(this).parent().attr("id")
+    var value = $(this).siblings("textarea").val()
       localStorage.setItem(key, value);
     });
 
@@ -52,16 +52,10 @@ $(function () {
     for (var i = 0; i < timeBlockEl.length; i++) {
       var eventStorage = localStorage.getItem("eventStorage" + i);
       // Writes events from localStorage, if any
-      if (eventStorage) {
-        for (var i = 0; i < timeBlockEl.length; i++) {
-          var eventTextEl = timeBlockEl[i].children("textarea");
-          eventTextEl = JSON.parse(eventStorage);
-        }
-      // Returns an empty array if there aren't any events.
-      } else {
-        eventTextEl = [];
+      if (eventStorage !== null) {
+          var eventTextEl = timeBlockEl[i].children[1];
+          eventTextEl.value = eventStorage;
       }
-      return eventTextEl;
     }
   }
   // Displays events from localStorage on page load
